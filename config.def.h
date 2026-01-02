@@ -41,7 +41,7 @@ static char *fonts[] =
 static const char *fonts[] =
 #endif // XRESOURCES_PATCH
 {
-	"monospace:size=10"
+	"JetBrainsMono Nerd Font Propo:pixelsize=14:weight=semibold:autohint=true:antialias=true",
 };
 #endif // PANGO_PATCH
 #if MANAGED_PATCH
@@ -58,7 +58,7 @@ static const char *symbol_2 = ">";
 #endif // SYMBOLS_PATCH
 
 #if ALPHA_PATCH
-static const unsigned int baralpha = 0xd0;
+static const unsigned int baralpha = 0xe0;
 static const unsigned int borderalpha = OPAQUE;
 static const unsigned int alphas[][3]      = {
 	/*               fg      bg        border     */
